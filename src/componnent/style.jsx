@@ -1,27 +1,29 @@
-import * as React from 'react';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
-export function ColorTabs() {
-    const [value, setValue] = React.useState('one');
+// import * as React from 'react';
+// import Tabs from '@mui/material/Tabs';
+// import Tab from '@mui/material/Tab';
+// import Box from '@mui/material/Box';
+// export default function ColorTabs() {
+//     const [value, setValue] = React.useState('one');
   
-    const handleChange = (event, newValue) => {
-      setValue(newValue);
-    };
+//     const handleChange = (event, newValue) => {
+//       setValue(newValue);
+//     };
   
-    return (
-      <Box sx={{ width: '100%' }}>
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          textColor="secondary"
-          indicatorColor="secondary"
-          aria-label="secondary tabs example"
-        >
-          <Tab value="one" label="Item One" />
-          <Tab value="two" label="Item Two" />
-          <Tab value="three" label="Item Three" />
-        </Tabs>
-      </Box>
-    );
-  }
+//     return (
+//       <Box sx={{ width: '100%' }}>
+//         <Tabs
+//           value={value}
+//           onChange={handleChange}
+//           textColor="secondary"
+//           indicatorColor="secondary"
+//           aria-label="secondary tabs example"
+//         >
+//           <Tab value="one" label="Home" />
+//           <Tab value="two" label="Posts" />
+//           <Tab value="three" label="Photos" />
+//           <Tab value="four" label="Users" />
+//           <Tab value="five" label="Todo" />
+//         </Tabs>
+//       </Box>
+//     );
+//   }

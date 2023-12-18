@@ -30,6 +30,9 @@ reducers:{
     update:(state,actions)=>{
      console.log("update");
     },
+    delete:(state,actions)=>{
+        
+    }
     
 }
 })

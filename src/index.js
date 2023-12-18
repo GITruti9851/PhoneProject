@@ -9,10 +9,17 @@ import { BrowserRouter } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import ToDoSlice from './componnent/todosreducer';
+import PostSlice from "./componnent/PostReducer"
+import UserSlice from "./componnent/UserRducuers"
+import PhotoSlice from "./componnent/PhotosReducer"
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const MyStore = configureStore({
   reducer: {
-   ToDoSlice
+   ToDoSlice,
+   PostSlice,
+   UserSlice,
+   PhotoSlice,
   }
 })
 
